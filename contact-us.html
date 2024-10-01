@@ -6,40 +6,23 @@
     <meta name="author" content="Duan Wang">
     <meta name="description" content="My web project">
     <meta name="keyword" content="html, css, web, seo, web development">
-    <title>Contact us</title>
-    <link rel="icon" href="./asserts/img/favicon.png" type="image/x-icon">
+    <title>Guil'de-Guide Contact us</title>
+    <link rel="icon" href="./src/img/group-4-logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
-    <link rel="stylesheet" href="./asserts/css/contact-us.css" media="all">
+    <link rel="stylesheet" href="./src/css/contact-us.css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" >
   </head>
   <body>
-    <footer class="mobile-footer">
-      <div class="container flex center">
-        <nav>
-          <ul >
-            <li>
-              <a href="./contact.html"><i class="fa-solid fa-magnifying-glass"></i></a>
-            </li>
-            <li>
-              <a><i class="fa-solid fa-phone"></i></a>
-            </li>
-            <li>
-              <a><i class="fa-solid fa-user"></i></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
     <div class="hero-banner">
       <header>
         <div class="container flex space ">
-          <div class="logo flex">
+          <a class="logo flex" href="./index.html">
             <i class="fa-brands fa-guilded"></i>
             <p>Guil'de-Guide</p>
-          </div>
+          </a>
           <div class="info-tab flex">
             <a class="">Destination</a>
             <a class="">Travel Styles</a>
@@ -47,26 +30,30 @@
             <a class="">Deals</a>
           </div>
           <div class="info-bars">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars header-con"></i>
           </div>
           <nav>
             <ul>
               <li>
-                <a href="./contact.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="./contact.html">
+                  <i class="fa-solid fa-magnifying-glass header-con""></i>
+                </a>
               </li>
               <li>
-                <a><i class="fa-solid fa-phone"></i></a>
+                <a><i class="fa-solid fa-phone header-con""></i></a>
               </li>
               <li>
-                <a><i class="fa-solid fa-user"></i></a>
+                <a><i class="fa-solid fa-user header-con""></i></a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
       <div class="hero-banner-main container grid">
-        <h2>We Love Hearing from You!</h2>
-        <h1>Contact Us</h1>
+        <div>
+          <p class="p1">Contact Us</p>
+          <p class="p2">We Love Hearing from You!</p>
+        </div>
       </div>
     </div>
     <main>
@@ -88,7 +75,7 @@
           <p>
             Prefer to speak on the phone? Give us a ring so we can help.
           </p>
-          <p>
+          <p> 
             Mon - Sun: 9am to 8pm
           </p>
           <p>
@@ -126,7 +113,7 @@
             </p>
           </div>
           <div class="flex">
-            <button>Show More</button>
+            <button>Learn More</button>
           </div>
         </div>
       </div>
@@ -150,7 +137,10 @@
           </div>
           <div class="grid form-col">
             <label for="email">Email address*</label>
-            <input class="input-1" type="email" placeholder="bob_smith@gmail.com" required>
+            <input 
+              class="input-1" type="email" 
+              placeholder="bob_smith@gmail.com" required
+            >
           </div>
         </div>
         <div class="email-col grid">
