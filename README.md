@@ -1,12 +1,12 @@
 # Travel website template
   <p>
-    This travel website template is designed to provide an engaging and 
+    This travel website template was designed to provide an engaging and 
     user-friendly platform for travel agencies. With its modern design and 
-    robust features, it aims to enhance user experience and streamline the 
+    robust features, it aimed to enhance user experience and streamline the 
     process of travel planning.
   </p>
   <p>
-    Thistravel website template developed by Creeford, Jiayi and Duan.
+    This travel website template developed by Creeford, Jiayi and Duan.
   </p>
 
 ## 1.Webpage screenshots
@@ -47,6 +47,7 @@
 ## 3.The technologies used to build the web app
 - <h3>Front-end</h3>
   - HTML (HyperText Markup Language)
+  <br>
   - CSS (Cascading Style Sheets)
 - <h3>Version Control</h3>
   - GitHub
