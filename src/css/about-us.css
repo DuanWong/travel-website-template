@@ -157,7 +157,7 @@ header {
 }
 
 .bottom-right-button:hover {
-    background-color: var(--app-blue-background); 
+    background-color: var(--app-purple-color); 
     color: #0e0d0d;
 }
 
@@ -300,7 +300,7 @@ header {
 /* ---------------------------------- */    
 
 footer {
-    background-color: #e6e6e6;
+    background-color: #adadad;
     color: var(--app-white1-color);
     padding: 10px;
   }
