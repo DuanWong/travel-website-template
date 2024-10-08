@@ -69,7 +69,7 @@ header {
    
   .logo {
     color: var(--app-purple-color);
-    p {
+    h1 {
       margin-left: 10px;
       line-height: 72px;
     }

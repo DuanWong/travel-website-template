@@ -85,7 +85,7 @@ header nav a {
    
 .logo {
   color: var(--app-purple-color);
-  p {
+  h1 {
     line-height: 72px;
     margin-left: 10px;
   }
