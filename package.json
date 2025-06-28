@@ -1,0 +1,15 @@
+{
+  "name": "project-travel-website",
+  "version": "1.0.0",
+  "description": "<p>\r     This travel website template was designed to provide an engaging and \r     user-friendly platform for travel agencies. With its modern design and \r     robust features, it aimed to enhance user experience and streamline the \r     process of travel planning.\r   </p>\r   <p>\r     This travel website template developed by Creeford, Jiayi and Duan.\r   </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
