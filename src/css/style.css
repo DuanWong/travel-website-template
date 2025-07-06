@@ -374,8 +374,12 @@ h4 {
     margin-left: 20px;
   }
   
-  header nav {
-    display: none;
+  .info-bars {
+    display: inline;
+  }
+
+  .info-tab {
+    display: none;  
   }
 
   .box {
@@ -391,12 +395,7 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-  .info-tab {
-  display: none;  
-}
-  .info-bars {
-  display: inline;
-  }
+  
 
   .content-web h1 {
     font-size: 55px;

@@ -427,29 +427,28 @@ h4 {
 /*--------------------------------------------*/
 
 @media screen and (max-width:768px) {
-  .col, .form-col, .col-location, iframe {
-      width: calc(50% - 40px);
+  .col, .col-location, iframe {
+    width: calc(50% - 40px);
+  }
+
+  .form-col {
+    width:100%;
   }
 }
 
 @media screen and (max-width:480px) {
-  .col, .form-col, .col-location, iframe {
-      width: 100%;
+  .col, .col-location, iframe {
+    width: 100%;
   }
 }
 
 @media screen and (max-width:900px) {
-  header nav {
-    display: none;
+  .info-bars {
+    display: inline;
   }
-}
-   
-@media screen and (max-width: 786px) {
+
   .info-tab {
     display: none;  
-  }
-  .info-bars {
-  display: inline;
   }
 }
    

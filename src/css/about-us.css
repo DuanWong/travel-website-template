@@ -408,26 +408,21 @@ footer {
 
 @media (max-width: 768px) {
   .card-container {
-      flex-direction: column;
+    flex-direction: column;
   }
   .card {
     width: 100%;
-}
+  }
  
 }
 
 @media screen and (max-width:900px) {
-  header nav {
-    display: none;
-  }
-}
-  
-@media screen and (max-width: 780px) {
-  .info-tab {
-    display: none;  
-  }
   .info-bars {
     display: inline;
+  }
+
+  .info-tab {
+    display: none;  
   }
 }
   
